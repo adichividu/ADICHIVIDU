@@ -1,9 +1,0 @@
-theme = https://coolors.co/000000-fffffc-beb7a4-ff7f11-ff3f00
-
-mail = adichividu77@gmial
-
-mail pass = #smv1234
-
-netlify pass *123#*123#SmV
-
-github pass = #smv1234
