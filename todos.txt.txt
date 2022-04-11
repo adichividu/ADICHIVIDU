@@ -1,0 +1,9 @@
+find a best color pallete
+
+solve the image problems
+
+find a best name
+
+modify project name in html
+
+make a favicon

@@ -1,0 +1,172 @@
+.Navbar{
+    margin: 0 0 9% 0;
+    padding: 0;
+    background: none;
+}
+.fixed-top {
+    background-color: #000000!important;
+        backdrop-filter: blur(50px);
+   /* border-bottom: 1px solid rgb(48, 48, 48);*/
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900px;
+    font-size: 40px;
+    color: #FFFF00;
+}
+/*.sub-brand-name{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 1.50rem;
+}*/
+#wa-share-btn{
+    background: #FFFF00;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+#wa-share-btn:hover{
+    background: #FFFF00;
+    color: #000;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+#wa-share-btn{
+    font-size: 12.5px;
+    margin: 2.5px 0% 2.5px 25%;
+}
+.bi-whatsapp{
+    margin-bottom: 2px;
+}
+.dropdown-menu{
+    background: none;
+}
+button.navbar-toggler{
+    padding-bottom: 6px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+.navbar-toggler:hover{
+    background: none;
+    box-shadow: none;
+}
+.navbar-toggler:focus{
+    background: none;
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    font-size: 15px;
+}
+.dropdown-toggle{
+    border: none;
+}
+.button{
+    background: none;
+}
+.user-name{
+    font-size: large;
+    font-weight: bolder;
+    color: #FFFF00;
+}
+img.avatar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 41px;
+    height: 41px;
+    line-height: 1px;
+    border-radius: 15%;
+    overflow: hidden;
+    border: none;
+    outline: none;
+}
+#signoutbtn{
+    margin-top: 5px;
+    background: #FFFF00;
+    color: #000000;
+    border: 2px solid #FFFF00;
+    box-shadow: 0 0 0 #000000;
+    width: 100%;
+}
+#signoutbtn:hover{
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    background: #0d0d0d;
+    border: 2px solid #FFFF00;
+    box-shadow: 0 0 0 #000000;
+}
+.btn{
+    box-shadow: none;
+}
+.bi-box-arrow-right{
+    margin-bottom: 2px;
+}
+
+@media (max-width: 800px) {
+    .Navbar{
+        margin: 0 0 15% 0;
+        padding: 0;
+        background: none;
+    }
+    .heading{
+        margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900px;
+        font-size: 25px;
+        color: #FFFF00;
+    }
+    .sub-brand-name{
+        margin-top: 2px;
+        margin-left: 2px;
+        font-size: 1rem;
+    }
+    #wa-share-btn{
+        background: #FFFF00;
+        border-radius: 5px;
+        margin-left: 0.5px;
+    }
+    #wa-share-btn:hover{
+        background: #FFFF00;
+        border-radius: 5px;
+        margin-left: 0.5px;
+    }
+    #wa-share-btn:focus{
+        background: #FFFF00;
+        border-radius: 5px;
+        margin-left: 0.5px;
+    }
+    .avatar{
+        border: 2px solid #FFFF00;
+        margin-top: 10px;
+    }
+    .user-name{
+        padding-top: 10px;
+    }
+    #signoutbtn{
+        color: rgb(255, 255, 255);
+        background: #0d0d0d;
+        border: 2px dashed #FFFF00;
+        box-shadow: 0 0 0 #000000;
+        width: 100%;
+    }
+    #signoutbtn:hover{
+        background: #FFFF00;
+        color: #000000;
+        border: 2px dashed #FFFF00;
+        box-shadow: 0px 0px 20px #FFFF00;
+        }
+        .btn{
+            box-shadow: none;
+        }
+        .bi-box-arrow-right{
+            margin-bottom: 2.5px;
+        }
+    .nav-item{
+        /*border-top: 1px solid rgb(66, 66, 66);*/
+    }
+}
