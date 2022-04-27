@@ -99,7 +99,7 @@ function Home() {
       <br/>
       {/* POSTS OF USERS */}
       <div className="posts">
-        <br/><br/><br/>
+        <br/><br/>
         {pdf.length>0?pdf.map((post) => <  >
         <div key={post.key} className={"form "+(post.uid===user.uid?"if true":"if false")}>
 

@@ -131,11 +131,11 @@ function Login() {
                 <h3 className="form-title">Sign in to continue</h3>
                 <div class="social-container">
                   <button type="button" className="btn btn-lg btn-block google-signin-btn" onClick={signinwithgoogle}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff" className="bi bi-google pb-1 mr-2" viewBox="0 0 16 16">
-                      <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
-                    </svg>
-                    <span className="signin-text font-weight-bolder h6 text-white text-capitalize">sign In with Google</span>
+                  <img src="https://cdn.loom.com/assets/img/icons/google-7fd162b327d42b755efbe828d0a329b7.svg" class="google-logo mb-1 mr-1"></img>
+                  Continue with Google
                   </button>
+                  <br/>
+                  <span className="text-secondary">By clicking “Continue with Google” above, you acknowledge that you have read and understood, and agree to our <a href=""  className="trmsndcndton-link text-secondary"><u>Terms & Condition</u></a> and <a className="prvcy-polcy-link text-secondary" href=""><u>Privacy Policy</u></a>.</span>
                 </div>
                 {/*
                 <span className='span text-white'><b>Or</b> use your account</span>
