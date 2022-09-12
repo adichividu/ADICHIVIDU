@@ -119,6 +119,24 @@ a:hover{
 nav{
     background: #191919;
 }
+.heading{
+    margin: 0 auto;
+    letter-spacing: -1.6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900px;
+    font-size: 22.5px;
+    color: #FFFF00;
+}
+.nav-head-span-1{
+    font-size: 22.5px;
+    background-image: linear-gradient(to right, #FFFF00,white);
+    background-clip:text;
+    color:transparent;
+}
+.nav-head-span-2{
+    color: #FFF;
+    font-size: 22.5px;
+}
 .fixed-top{
     border-bottom: 1.5px solid rgb(35, 35, 35);
 }
@@ -173,6 +191,7 @@ nav{
     border: 1px solid #FFFF00;
     color: #fff;
     font-size: 16.5px;
+    font-weight: bolder;
 }
 .google-signin-btn:hover{
     background: #FFFF00;

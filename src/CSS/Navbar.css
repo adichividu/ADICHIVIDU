@@ -1,5 +1,5 @@
 .Navbar{
-    margin: 0 0 9% 0;
+    margin: 0 0 5% 0;
     padding: 0;
 }
 .fixed-top {
@@ -11,10 +11,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    letter-spacing: -2.3px;
     font-family: 'Poppins', sans-serif;
     font-weight: 900px;
-    font-size: 40px;
+    font-size: 38px;
     color: #FFFF00;
+}
+.nav-head-span-1{
+    font-size: 38px;
+    background-image: linear-gradient(90deg, #FFFF00,white);
+    background-clip:text;
+    color:transparent;
+}
+.nav-head-span-2{
+    color: #FFF;
+    font-size: 38px;
 }
 /*.sub-brand-name{
     margin-top: 5px;
@@ -37,10 +48,10 @@
 }
 #wa-share-btn{
     font-size: 12.5px;
-    margin: 2.5px 0% 2.5px 25%;
+    margin: 2.5px 0% 4.5px 25%;
 }
 .bi-whatsapp{
-    margin-bottom: 2px;
+    margin-bottom: 1px;
 }
 .dropdown-menu{
     background: none;
@@ -67,6 +78,10 @@ button.navbar-toggler{
 }
 .button{
     background: none;
+}
+.nav-item.d-inline-flex .btn:hover{
+background: transparent;
+box-shadow:none;
 }
 .user-name{
     font-size: large;
@@ -111,16 +126,27 @@ img.avatar{
 
 @media (max-width: 800px) {
     .Navbar{
-        margin: 0 0 15% 0;
+        margin: 0 0 10% 0;
         padding: 0;
         background: none;
     }
     .heading{
         margin: 0 auto;
+        letter-spacing: -1.6px;
         font-family: 'Poppins', sans-serif;
         font-weight: 900px;
-        font-size: 25px;
+        font-size: 22.5px;
         color: #FFFF00;
+    }
+    .nav-head-span-1{
+        font-size: 22.5px;
+        background-image: linear-gradient(to right, #FFFF00,white);
+        background-clip:text;
+        color:transparent;
+    }
+    .nav-head-span-2{
+        color: #FFF;
+        font-size: 22.5px;
     }
     .sub-brand-name{
         margin-top: 2px;
@@ -145,23 +171,28 @@ img.avatar{
     }
     .avatar{
         border: 2px solid #FFFF00;
-        margin-top: 10px;
+        margin-bottom: 15px;
     }
-    .user-name{
-        padding-top: 10px;
+
+    .nav-item.d-inline-flex .btn .user-name{
+        vertical-align:middle;
+        margin-top: 0px;
     }
     #signoutbtn{
         color: rgb(255, 255, 255);
+        margin-top: 10px;
+        margin-bottom: 5px;
         background: #0d0d0d;
         border: 2px dashed #FFFF00;
-        box-shadow: 0 0 0 #000000;
+        box-shadow: none;
         width: 100%;
     }
     #signoutbtn:hover{
+        margin-top: 10px;
+        margin-bottom: 5px;
         background: #FFFF00;
         color: #000000;
         border: 2px dashed #FFFF00;
-        box-shadow: 0px 0px 20px #FFFF00;
         }
         .btn{
             box-shadow: none;
@@ -169,7 +200,7 @@ img.avatar{
         .bi-box-arrow-right{
             margin-bottom: 2.5px;
         }
-    .nav-item{
-        /*border-top: 1px solid rgb(66, 66, 66);*/
-    }
+   /* .nav-item{
+        border-top: 1px solid rgb(66, 66, 66);
+    }*/
 }

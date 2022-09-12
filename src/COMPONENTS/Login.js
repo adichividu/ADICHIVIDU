@@ -46,7 +46,7 @@ function Login() {
       
       <div className="main-credential">
         <nav class="navbar navbar-dark justify-content-center fixed-top">
-          <span class="navbar-brand heading font-weight-bolder mb-0 h1 pr-3">ADICHIVIDU</span>
+          <span class="navbar-brand heading font-weight-bolder mb-0 h1 pr-3">AV<span className="nav-head-span-1">K</span><span className="nav-head-span-2">ONNECT</span></span>
         </nav>
         
         
@@ -131,7 +131,7 @@ function Login() {
                 <h3 className="form-title">Sign in to continue</h3>
                 <div class="social-container">
                   <button type="button" className="btn btn-lg btn-block google-signin-btn" onClick={signinwithgoogle}>
-                  <img src="https://cdn.loom.com/assets/img/icons/google-7fd162b327d42b755efbe828d0a329b7.svg" class="google-logo mb-1 mr-1"></img>
+                  <img src="https://cdn.loom.com/assets/img/icons/google-7fd162b327d42b755efbe828d0a329b7.svg" class="google-logo mb-1 mr-2"></img>
                   Continue with Google
                   </button>
                   <br/>
